@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7dc7510d721b0488c13e58c4157800, type: 3}
+  m_Name: AchievimentsData
+  m_EditorClassIdentifier: Assembly-CSharp::AchievimentsData
+  allAchiviements:
+  - Name: Level1
+    Info:
+      ID: Level1
+      Title: Planet 1
+      InfoTxt: Complite level 1
+      spriteYes: {fileID: 21300000, guid: 0aab17f474ae0434eb7aff4a29cc0123, type: 3}
+      spriteNo: {fileID: 21300000, guid: 0aab17f474ae0434eb7aff4a29cc0123, type: 3}
+      colorYes: {r: 1, g: 1, b: 1, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883221
+  - Name: Level2
+    Info:
+      ID: Level2
+      Title: Planet 2
+      InfoTxt: Complete level 2
+      spriteYes: {fileID: 21300000, guid: 1eebe61fa30929248bdcda4d7c3c51ec, type: 3}
+      spriteNo: {fileID: 21300000, guid: 1eebe61fa30929248bdcda4d7c3c51ec, type: 3}
+      colorYes: {r: 1, g: 1, b: 1, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883222
+  - Name: Level3
+    Info:
+      ID: Level3
+      Title: Planet 3
+      InfoTxt: Complete level 3
+      spriteYes: {fileID: 21300000, guid: 8ff5851d96e353540b1e6d34f6dafe7b, type: 3}
+      spriteNo: {fileID: 21300000, guid: 8ff5851d96e353540b1e6d34f6dafe7b, type: 3}
+      colorYes: {r: 1, g: 1, b: 1, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883223
+  - Name: Level4
+    Info:
+      ID: Level4
+      Title: Planet 4
+      InfoTxt: Complete level 4
+      spriteYes: {fileID: 21300000, guid: c135213a5c54f2f4984eaa105cc33b20, type: 3}
+      spriteNo: {fileID: 21300000, guid: c135213a5c54f2f4984eaa105cc33b20, type: 3}
+      colorYes: {r: 1, g: 1, b: 1, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883224
+  - Name: Level5
+    Info:
+      ID: Level5
+      Title: Planet 5
+      InfoTxt: Complete level 5
+      spriteYes: {fileID: 21300000, guid: 8d93f8b646fad08429a3686590a61bf7, type: 3}
+      spriteNo: {fileID: 21300000, guid: 8d93f8b646fad08429a3686590a61bf7, type: 3}
+      colorYes: {r: 1, g: 1, b: 1, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883225
+  - Name: Level6
+    Info:
+      ID: Level6
+      Title: Planet 6
+      InfoTxt: Complete level 6
+      spriteYes: {fileID: 21300000, guid: 4a868e28be12a6349a2742aa1909ed42, type: 3}
+      spriteNo: {fileID: 21300000, guid: 4a868e28be12a6349a2742aa1909ed42, type: 3}
+      colorYes: {r: 1, g: 1, b: 1, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883226
+  - Name: Level7
+    Info:
+      ID: Level7
+      Title: Planet 7
+      InfoTxt: Complete level 7
+      spriteYes: {fileID: 21300000, guid: d1633d80f997845418c21db664ba138f, type: 3}
+      spriteNo: {fileID: 21300000, guid: d1633d80f997845418c21db664ba138f, type: 3}
+      colorYes: {r: 1, g: 1, b: 1, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883227
+  - Name: MaxMaterial
+    Info:
+      ID: MaxMaterial
+      Title: Materialist
+      InfoTxt: Collect 1000 units of the Materail
+      spriteYes: {fileID: -370961514, guid: 05e0567213a58c840a3ea79a4409bdfd, type: 3}
+      spriteNo: {fileID: -370961514, guid: 05e0567213a58c840a3ea79a4409bdfd, type: 3}
+      colorYes: {r: 0.35404047, g: 0.9025134, b: 0.9622642, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883241
+  - Name: MaxEnergy
+    Info:
+      ID: MaxEnergy
+      Title: Energetic
+      InfoTxt: Collect 1000 units of the Energy
+      spriteYes: {fileID: -1756047590, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      spriteNo: {fileID: -1756047590, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      colorYes: {r: 0.9924528, g: 0.2153434, b: 0.83631665, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883243
+  - Name: Survivor
+    Info:
+      ID: Survivor
+      Title: Survivor
+      InfoTxt: Complete any level with 100% health
+      spriteYes: {fileID: -2043333513, guid: 05e0567213a58c840a3ea79a4409bdfd, type: 3}
+      spriteNo: {fileID: -2043333513, guid: 05e0567213a58c840a3ea79a4409bdfd, type: 3}
+      colorYes: {r: 1, g: 0.18679237, b: 0.25948718, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883245
+  - Name: Invictible
+    Info:
+      ID: Invictible
+      Title: Invictible
+      InfoTxt: Complete last level with 100% health
+      spriteYes: {fileID: 1181023038, guid: 05e0567213a58c840a3ea79a4409bdfd, type: 3}
+      spriteNo: {fileID: 1181023038, guid: 05e0567213a58c840a3ea79a4409bdfd, type: 3}
+      colorYes: {r: 1, g: 0.18679237, b: 0.25948718, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883247
+  - Name: Planet Defender
+    Info:
+      ID: Planet Defender
+      Title: Planet Defender
+      InfoTxt: Get all the achievements
+      spriteYes: {fileID: 21300000, guid: 999bbcfdee4c78a479da9a86d4bd6225, type: 3}
+      spriteNo: {fileID: 21300000, guid: 999bbcfdee4c78a479da9a86d4bd6225, type: 3}
+      colorYes: {r: 1, g: 0.93436277, b: 0, a: 1}
+      colorNo: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    achievementBehaviour:
+      rid: 7067667759705883236
+  references:
+    version: 2
+    RefIds:
+    - rid: 7067667759705883221
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level1
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883222
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level2
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883223
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level3
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883224
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level4
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883225
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level5
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883226
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level6
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883227
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level7
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883236
+      type: {class: PlatinaAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Platina
+        ProgressType: 0
+        EndValue: 0
+        idsBehavioursTest: []
+    - rid: 7067667759705883241
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: MaxMaterial
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883243
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: MaxEnergy
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883245
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Survivor
+        ProgressType: 0
+        EndValue: 0
+    - rid: 7067667759705883247
+      type: {class: PlatinaAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Invictible
+        ProgressType: 0
+        EndValue: 0
+        idsBehavioursTest: []

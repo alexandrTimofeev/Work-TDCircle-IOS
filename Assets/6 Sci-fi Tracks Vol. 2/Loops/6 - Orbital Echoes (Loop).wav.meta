@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 87c75a22055b8f8498d26d2e99e9d9d0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275593
+  packageName: Free 6 Sci-fi Tracks Vol. 2
+  packageVersion: 1.0
+  assetPath: Assets/6 Sci-fi Tracks Vol. 2/Loops/6 - Orbital Echoes (Loop).wav
+  uploadId: 640250
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 8
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 1
+    sampleRateSetting: 2
+    sampleRateOverride: 11025
+    compressionFormat: 1
+    quality: 0.5
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

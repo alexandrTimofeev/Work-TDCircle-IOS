@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6a058684896f44d8c4162cf713b786, type: 3}
+  m_Name: LevelData6
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  ID: 
+  ScoreTarget: 100
+  Timer: 100
+  LevelPrefab: {fileID: 0}
+  Background: {fileID: 21300000, guid: d1633d80f997845418c21db664ba138f, type: 3}
+  DistFinalKof: 1
+  StartWeghitCap: 1
+  StartWeghitAllLineKof: 1
+  BuildPresets:
+  - SimpleTower
+  - RailTower
+  - Mine
+  - Farm
+  - PowerMaterial
+  - PowerUp
+  - SlowMo
+  - IonTower
+  - Healer
+  SpawnPreset:
+    PresetName: New Spawn Preset
+    waveInfos:
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 6
+        MinCount: 0
+        MaxCount: 0
+        UseRandomCount: 0
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 1
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 7
+      WaitType: 2
+      Value: 0.2
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 7
+        MinCount: 7
+        MaxCount: 9
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5470654173746325923, guid: 82abc58367518484992097f607a3b903, type: 3}
+        FixedCount: 2
+        MinCount: 2
+        MaxCount: 2
+        UseRandomCount: 0
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 1
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 2
+      Value: 0.2
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 12
+        MinCount: 0
+        MaxCount: 0
+        UseRandomCount: 0
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 1
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 10
+      WaitType: 5
+      Value: 0.25
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 7
+        MinCount: 7
+        MaxCount: 9
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5470654173746325923, guid: 82abc58367518484992097f607a3b903, type: 3}
+        FixedCount: 2
+        MinCount: 2
+        MaxCount: 3
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 8352611186313440563, guid: ce908aa26cdd9ee4baf7b8dad074df22, type: 3}
+        FixedCount: 5
+        MinCount: 4
+        MaxCount: 7
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 1
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.25
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 7
+        MinCount: 7
+        MaxCount: 9
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5470654173746325923, guid: 82abc58367518484992097f607a3b903, type: 3}
+        FixedCount: 5
+        MinCount: 5
+        MaxCount: 6
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 0.8
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.5
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 7
+        MinCount: 7
+        MaxCount: 9
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5470654173746325923, guid: 82abc58367518484992097f607a3b903, type: 3}
+        FixedCount: 5
+        MinCount: 5
+        MaxCount: 6
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 8352611186313440563, guid: ce908aa26cdd9ee4baf7b8dad074df22, type: 3}
+        FixedCount: 11
+        MinCount: 10
+        MaxCount: 15
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 1
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.25
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 12
+        MinCount: 12
+        MaxCount: 15
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 8352611186313440563, guid: ce908aa26cdd9ee4baf7b8dad074df22, type: 3}
+        FixedCount: 17
+        MinCount: 15
+        MaxCount: 20
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 3
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.5
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 12
+        MinCount: 12
+        MaxCount: 15
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 8352611186313440563, guid: ce908aa26cdd9ee4baf7b8dad074df22, type: 3}
+        FixedCount: 17
+        MinCount: 15
+        MaxCount: 20
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 3
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.5
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 7
+        MinCount: 7
+        MaxCount: 9
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5957578076037503897, guid: 61b5f83a3bccab8409a4eaac9109e01b, type: 3}
+        FixedCount: 2
+        MinCount: 1
+        MaxCount: 3
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 0.8
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.5
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 12
+        MinCount: 12
+        MaxCount: 15
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5470654173746325923, guid: 82abc58367518484992097f607a3b903, type: 3}
+        FixedCount: 5
+        MinCount: 5
+        MaxCount: 6
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 8352611186313440563, guid: ce908aa26cdd9ee4baf7b8dad074df22, type: 3}
+        FixedCount: 17
+        MinCount: 15
+        MaxCount: 20
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5957578076037503897, guid: 61b5f83a3bccab8409a4eaac9109e01b, type: 3}
+        FixedCount: 2
+        MinCount: 1
+        MaxCount: 3
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 3
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.5
+    - SpawnGroups:
+      - Prefab: {fileID: 9047055149833105754, guid: d639ae12a4c01144cbcff5f7e5264e20, type: 3}
+        FixedCount: 20
+        MinCount: 17
+        MaxCount: 25
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5470654173746325923, guid: 82abc58367518484992097f607a3b903, type: 3}
+        FixedCount: 12
+        MinCount: 10
+        MaxCount: 15
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 8352611186313440563, guid: ce908aa26cdd9ee4baf7b8dad074df22, type: 3}
+        FixedCount: 25
+        MinCount: 23
+        MaxCount: 30
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      - Prefab: {fileID: 5957578076037503897, guid: 61b5f83a3bccab8409a4eaac9109e01b, type: 3}
+        FixedCount: 5
+        MinCount: 3
+        MaxCount: 5
+        UseRandomCount: 1
+        UseRandomWeight: 0
+        Variants: []
+      SpawnDelay: 3
+      ShuffleGroups: 0
+      MaxConcurrentEnemies: 0
+      Wait: 5
+      WaitType: 5
+      Value: 0.5
+    randomRotation: 0
+    loopWaves: 0
+    autoStart: 1
+    difficultyScale: 1
+    weightScale: 1
+    maxTotalEnemies: 0
+    globalWaveDelay: -1

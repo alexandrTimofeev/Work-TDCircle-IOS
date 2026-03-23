@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774f80d0a36a6174dab514304495ccbd, type: 3}
+  m_Name: GameGlobalData
+  m_EditorClassIdentifier: 
+  data:
+    HitStopPlayerHit: 0.5
+    CameraShakePunch: {x: 1, y: 1, z: 1}
+    WaitToEnergy: 2
+    AddEnergy: 1
+    BuildPresets:
+    - ID: SimpleTower
+      Icon: {fileID: -844700153, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 4269246319337108436, guid: 22f728de31afc7d48a771584f797adac, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 1, y: 2}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 10
+        PowerUp: 0.5
+      - Title: Material
+        Count: 0
+        PowerUp: 0.5
+    - ID: RailTower
+      Icon: {fileID: 362099136, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 7404915206690483762, guid: 861df298ffc4e924b9a59fd49252f467, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 0, y: 0}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 5
+        PowerUp: 0.25
+      - Title: Material
+        Count: 5
+        PowerUp: 0.75
+    - ID: Mine
+      Icon: {fileID: -150716834, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 1409295265597616325, guid: b3fe11420ef0cca4ea37afd5332ae48d, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 2, y: 2}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 25
+        PowerUp: 0.15
+      - Title: Material
+        Count: 10
+        PowerUp: 0
+    - ID: Farm
+      Icon: {fileID: -1756047590, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 8786290974760861409, guid: 91a70b37ae2ff2043b3948c9c1d379d5, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 3, y: 3}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 10
+        PowerUp: 0.9
+      - Title: Material
+        Count: 10
+        PowerUp: 0.4
+    - ID: PowerMaterial
+      Icon: {fileID: -530572372, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 1624350923567925337, guid: 213992662d28e5a449caa2016e29b21e, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 3, y: 3}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 10
+        PowerUp: 0.4
+      - Title: Material
+        Count: 10
+        PowerUp: 0.9
+    - ID: PowerUp
+      Icon: {fileID: -897676795, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 8547205516578854677, guid: 8db40c5bb455ff742ae592303544493b, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 3, y: 3}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 15
+        PowerUp: 0.7
+      - Title: Material
+        Count: 30
+        PowerUp: 0.7
+    - ID: SlowMo
+      Icon: {fileID: -1552747657, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 5417100835767940525, guid: 1ec4b6b531e3a4f4f989a0924707cb3f, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 2, y: 3}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 40
+        PowerUp: 0.6
+      - Title: Material
+        Count: 15
+        PowerUp: 0.6
+    - ID: IonTower
+      Icon: {fileID: -607346249, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 3968488155981872235, guid: 4fc8573cf4b578d4e8bfdf6985ca3b15, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 1, y: 1}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 15
+        PowerUp: 0.75
+      - Title: Material
+        Count: 15
+        PowerUp: 0.5
+    - ID: Healer
+      Icon: {fileID: 623849741, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+      Name: 
+      Description: 
+      BuildObject: {fileID: 3436693768636106222, guid: 55e8dbd80cef45c4790c95d5a42b4f91, type: 3}
+      BuildRule:
+        MinMaxZone: {x: 2, y: 1}
+        CanPlaceNotZone: 0
+      resourceConditions:
+      - Title: Energy
+        Count: 12
+        PowerUp: 1
+      - Title: Material
+        Count: 6
+        PowerUp: 1
+    Resources:
+    - Title: Life
+      _value: 100
+      _clampRange: {x: 0, y: 100}
+    - Title: Energy
+      _value: 10
+      _clampRange: {x: 0, y: 99999999}
+    - Title: Material
+      _value: 5
+      _clampRange: {x: 0, y: 99999999}

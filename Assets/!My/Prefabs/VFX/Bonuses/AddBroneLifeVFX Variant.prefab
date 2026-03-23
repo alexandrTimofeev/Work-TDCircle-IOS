@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &676024595745518147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4197932528727751774, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_Pitch
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197932528727751774, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_Volume
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.924225
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.273418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -52.182228
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716387756183202532, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942051186641694826, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: m_Name
+      value: AddBroneLifeVFX Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363991256347753723, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363991256347753723, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.2856927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363991256347753723, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3433334707766332558, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4360142855132653241}
+  m_SourcePrefab: {fileID: 100100000, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+--- !u!1 &2793392235372625613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3433334707766332558, guid: 5765fb10d894eb841a2776f2c1f43543, type: 3}
+  m_PrefabInstance: {fileID: 676024595745518147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!169 &4360142855132653241
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2793392235372625613}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.026830377
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
