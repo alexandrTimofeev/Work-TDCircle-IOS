@@ -1,6 +1,5 @@
 ﻿using DG.Tweening;
 using System;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 // EntryPoint сцены Game
