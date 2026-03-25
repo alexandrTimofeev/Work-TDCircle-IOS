@@ -1,6 +1,8 @@
 ﻿using System;
-using UnityEditor;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class CmmExempleCmdContainer
     : MonoBehaviour
@@ -20,9 +22,11 @@ public class CmmExempleCmdContext : ContextCommandPreset
     public string DebugAdd;
 }
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(CmmExempleCmdContainer))]
 public class CmmExempleContainerEditor
     : CommandContainerEditor<CmmExempleCmdAction>
 {
     protected override string EntriesFieldName => "commands.actions";
 }
+#endif

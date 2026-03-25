@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
 
 public abstract class CommandContainerEditor<TCommand> : Editor
 {
@@ -174,3 +176,4 @@ public abstract class CommandContainerEditor<TCommand> : Editor
         serializedObject.ApplyModifiedProperties();
     }
 }
+#endif

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 /// <summary>
 /// Базовый класс всех захватываемых объектов.
@@ -29,9 +31,11 @@ public class GrappableObjectContext : ContextCommandPreset
     public GrapObject GrapObject;
 }
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(GrappableActionContainer))]
 public class GrappableActionContainerEditor
     : CommandContainerEditor<GrappableObjectAction>
 {
     protected override string EntriesFieldName => "commands.actions";
 }
+#endif
