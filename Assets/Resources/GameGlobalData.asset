@@ -24,7 +24,7 @@ MonoBehaviour:
       Description: 
       BuildObject: {fileID: 4269246319337108436, guid: 22f728de31afc7d48a771584f797adac, type: 3}
       BuildRule:
-        MinMaxZone: {x: 1, y: 2}
+        MinMaxZone: {x: 2, y: 2}
         CanPlaceNotZone: 0
       resourceConditions:
       - Title: Energy
