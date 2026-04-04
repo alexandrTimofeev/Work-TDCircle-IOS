@@ -613,6 +613,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5189270243770682870, guid: 72788f365cb032f4e8eeec0bcd509679, type: 3}
+      propertyPath: ID
+      value: Achiv
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189270243770682870, guid: 72788f365cb032f4e8eeec0bcd509679, type: 3}
       propertyPath: openEase
       value: 1
       objectReference: {fileID: 0}
